@@ -1,19 +1,19 @@
 /Task 1/
 document.addEventListener("DOMContentLoaded", function() {
-    var currentPage = window.location.pathname;
+    var current = window.location.pathname;
 
-    if (currentPage.includes("index.html")) {
+    if (current.includes("index.html")) {
         document.title = "Webprogramming (LIX018P05) - Index";
-    } else if (currentPage.includes("second.html")) {
+    } else if (current.includes("second.html")) {
         document.title = "Webprogramming (LIX018P05) - Second";
     }
 });
 
 /Task 2/
 document.addEventListener("DOMContentLoaded", function() {
-    var currentPage = window.location.pathname;
+    var current = window.location.pathname;
 
-    if (currentPage.includes("index.html")) {
+    if (current.includes("index.html")) {
         var newArticle = document.createElement("article");
 
         var heading = document.createElement("h1");
@@ -59,9 +59,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /Task 6/
 document.addEventListener("DOMContentLoaded", function() {
-    var currentPage = window.location.pathname;
+    var current = window.location.pathname;
 
-    if (currentPage.includes("index.html")) {
+    if (current.includes("index.html")) {
         var schedule = {
             'Week 1': 'Assignment 1',
             'Week 2': 'Assignment 1',
